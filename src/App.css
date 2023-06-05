@@ -104,10 +104,8 @@ li {
   align-items: center;
 }
 
-
 .btn.Add2 {
   outline: none;
-
 }
 
 .questions {
@@ -125,10 +123,9 @@ li {
 
 .summary {
   text-align: left;
-  
 }
 
-.detai{
+.detai {
   text-align: justify;
   margin-left: 15px;
 }

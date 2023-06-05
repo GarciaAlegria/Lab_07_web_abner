@@ -7,16 +7,14 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'airbnb',
+    'eslint-config-prettier',
   ],
-  overrides: [
-  ],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   rules: {
     semi: ['error', 'never'],
     'max-len': ['warn', { code: 120 }],

@@ -13,7 +13,9 @@ function App() {
         <div className="menu-toggle">
           <span className="menu-icon" />
         </div>
-        <button type="button" onClick={toggleMenu}>Menú</button>
+        <button type="button" onClick={toggleMenu}>
+          Menú
+        </button>
         {isOpen && (
           <ul>
             <li> Twitter </li>
@@ -25,15 +27,26 @@ function App() {
       </nav>
       <div>
         <a href="https://duckduckgo.com/" target="_blank" rel="noreferrer">
-          <img src="./duckduckgologo.svg" className="logo react" alt="React logo" />
+          <img
+            src="./duckduckgologo.svg"
+            className="logo react"
+            alt="React logo"
+          />
         </a>
         <h1>DuckDuckGo</h1>
       </div>
 
-      <input type="text" placeholder="Busca en la red sin que te rastreen" className="input" />
+      <input
+        type="text"
+        placeholder="Busca en la red sin que te rastreen"
+        className="input"
+      />
       <input type="submit" className="submit" />
       <h1>¿Cansado de que te rastreen? Podemos ayudarte.</h1>
-      <h3>Consigue protección continua y gratuita para tu privacidad en el navegador con una descarga:</h3>
+      <h3>
+        Consigue protección continua y gratuita para tu privacidad en el
+        navegador con una descarga:
+      </h3>
 
       <ul className="ul benefits">
         <li>Búsqueda Privada</li>
@@ -41,8 +54,12 @@ function App() {
         <li>Encriptación De Sitios</li>
       </ul>
 
-      <button type="submit" className="btn Add">Add DuckDuckGo to Brave</button>
-      <h6>¡Con la confianza de decenas de millones de personas en todo el mundo!</h6>
+      <button type="submit" className="btn Add">
+        Add DuckDuckGo to Brave
+      </button>
+      <h6>
+        ¡Con la confianza de decenas de millones de personas en todo el mundo!
+      </h6>
       <h4>Protección de la Privacidad para Cualquier Dispositivo</h4>
 
       <div className="infoBox">
@@ -79,15 +96,15 @@ function App() {
       </h1>
       <p>
         Nuestra política de privacidad es simple: No colectamos
-        <br />
-        o compartimos ninguna información personal tuya.
+        <br />o compartimos ninguna información personal tuya.
       </p>
 
-      <button type="submit" className="btn Add2">Instalar DuckDuckGo</button>
+      <button type="submit" className="btn Add2">
+        Instalar DuckDuckGo
+      </button>
       <div>
         <img src="1-monster-v2--pre-animation.svg" alt="" />
       </div>
-
     </div>
   )
 }
